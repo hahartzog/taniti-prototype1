@@ -245,8 +245,8 @@ body {
 }
 
 .faq-button {
-    text-align: center;   /* centers the button */
-    margin-top: 20px;     /* optional spacing */
+    text-align: center; 
+    margin-top: 20px;
 }
 
 .btn-faq:hover {
@@ -279,7 +279,7 @@ body {
 form button,
 form input[type="submit"] {
     display: inline-block;
-    background-color: #1B4965;   /* matches your site palette */
+    background-color: #1B4965;
     color: #DFF7F3;
     padding: 12px 28px;
     border: none;
