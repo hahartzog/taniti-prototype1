@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Trip to Taniti</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo"><span>Explore</span><br>Taniti</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="thingstodo.html">Activities</a></li>
+                <li><a href="lodging.html">Lodging</a></li>
+                <li><a href="transportation.html">Transportation</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="booking.html" class="active">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section class="hero hero-booking">
+            <div class="hero-overlay">
+                <h1>Book Your Trip to Taniti</h1>
+            </div>
+        </section>
+        
+        <div class="form-container">
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="adults">Number of Adults:</label>
+                <input type="number" id="adults" name="adults" placeholder="Number of Adults" required>
+                <label for="children">Number of Children:</label>
+                <input type="number" id="children" name="children" placeholder="Number of Children" required>
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" id="checkin" name="checkin" required>
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" id="checkout" name="checkout" required>
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 Explore Taniti. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+        

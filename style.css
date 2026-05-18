@@ -1,0 +1,340 @@
+
+
+nav {
+    background-color: #1B4965;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-top: 2px solid #272cc9;
+    border-bottom: 2px solid #272cc9;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 20px; 
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #CAE9FF;
+    text-decoration: none;
+    line-height: 1;
+    padding: 0; 
+}
+
+nav a {
+    display: block;
+    padding: 40px 15px; 
+    text-decoration: none;
+    color: #DFF7F3;
+}
+
+
+
+nav a.active {
+    background-color: #CAE9FF;
+    color: #1B4965;
+    font-weight: bold;
+}
+nav a.active:hover {
+    background-color: #2D6A8E;
+    color: #FFFFFF;
+}
+
+nav a:hover {
+    background-color: #2D6A8E;
+    color: #FFFFFF;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+    position: relative;
+}
+
+.hero {
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 60px; 
+    position: relative;
+}
+.hero-home {
+    background-image: url("images/beach3.jpg");
+}
+.hero-thingstodo {
+    background-image: url("images/snorkeling1.jpg");
+}
+.hero-lodging {
+    background-image: url("images/lodging1.jpg");
+}
+.hero-transportation {
+    background-image: url("images/bus.jpg");
+}
+.hero-booking {
+    background-image: url("images/beach6.jpg");
+}
+.hero-faq {
+    background-image: url("images/questions.jpg");
+}
+
+.hero-overlay {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #CAE9FF;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+
+main {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+body {
+    background-color: #F2E9D8;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #2B2B2B;
+    margin: 0;
+    padding: 0;
+}
+
+.information {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.information h2 {
+    text-align:center;
+
+}
+.picturelink {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+}
+.link img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.link img:hover {
+    transform: scale(1.05);
+}
+.link h3 {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color:#1B4965
+}
+.link p {
+    font-size: 1rem;
+    color: #2B2B2B;
+    padding: 0 10px;
+}
+.book-now {
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-book {
+    display: inline-block;
+    background-color: #1B4965;
+    color: #DFF7F3;            
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.btn-book:hover {
+    background-color: #272cc9;
+}
+
+.btn-lodging {
+    display: inline-block;
+    background-color: #1B4965;
+    color: #DFF7F3;            
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.lodging-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-lodging:hover {
+    background-color: #272cc9;
+}
+
+.btn-transportation {
+    display: inline-block;
+    background-color: #1B4965;
+    color: #DFF7F3;            
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.transportation-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-transportation:hover {
+    background-color: #272cc9;
+}
+
+.btn-faq {
+    display: inline-block;
+    background-color: #1B4965;
+    color: #DFF7F3;            
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.faq-button {
+    text-align: center;   /* centers the button */
+    margin-top: 20px;     /* optional spacing */
+}
+
+.btn-faq:hover {
+    background-color: #272cc9;
+}
+.things-to-do {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.entertainment-column,
+.dining-column {
+    flex: 1;
+}
+
+.entertainment-column h2,
+.dining-column h2 {
+    text-align: center;
+}
+
+.entertainment-column img,
+.dining-column img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+form button,
+form input[type="submit"] {
+    display: inline-block;
+    background-color: #1B4965;   /* matches your site palette */
+    color: #DFF7F3;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.15s ease;
+}
+
+form button:hover,
+form input[type="submit"]:hover {
+    background-color: #272cc9;
+    transform: translateY(-2px);
+}
+
+form button:active,
+form input[type="submit"]:active {
+    transform: translateY(0);
+}
+
+form {
+    text-align: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="date"],
+form input[type="number"] {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px 12px;
+    margin: 8px auto;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    display: block;
+}
+
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: 600;
+}
+
+form input {
+    margin-bottom: 10px;
+}
+
+.form-container {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #E8F3F7;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
